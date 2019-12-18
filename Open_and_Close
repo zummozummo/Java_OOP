@@ -1,1 +1,10 @@
 
+O — Open/Closed Principle
+This principle suggests that “classes/method/packages should be open for extension but closed for modification”. 
+What is means is that if the class A is written by the developer AA, and if the developer BB wants some modification on 
+that then developer BB should be easily do that by extending class A, but not by modifying class A.
+
+ex-function that can itterate on every type of object follow open close principle
+
+
+https://youtu.be/BLcnGmsZ5EE
