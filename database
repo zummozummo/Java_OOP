@@ -19,3 +19,9 @@ Key aspect of these system are
 
 
 
+NoSQL database
+-----------------
+characterstics
+1)non realtional(no sturcture of smei) 
+2)high sclability(sharding and partition automatically)
+3)often focus on high availibilty, scalablity, and eventual consistency.
