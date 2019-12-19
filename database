@@ -1,0 +1,21 @@
+Current Systems
+RDBMS
+
+two flavours of RDBMS are  Resporting system(OLAP) or Operational system(OLTP)
+
+1)Reporting System
+-OLAP(online analytical processing)
+    Reporting system are designed and optimized to read data result out often aggrigated or summerized data out
+
+2)Operationl System
+-OLTP(online Transactonal processing)
+    Operational system are designed to take in new data (Insert update and delete).
+    
+    
+Key aspect of these system are
+3)defined by schema on write (when you insert/update/delete certain rules like length,type etc. are verified)
+4)RDBMS are queried via T-SQL language
+5)OLTP schema - normalized table, joins         ex-customer , order 
+
+
+
