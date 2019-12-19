@@ -25,3 +25,20 @@ characterstics
 1)non realtional(no sturcture of smei) 
 2)high sclability(sharding and partition automatically)
 3)often focus on high availibilty, scalablity, and eventual consistency.
+
+
+MONGODB
+--------------
+Cardinality-1:1, 1:N, N:1 or N:N realation ship
+you need to characterize your “One-to-N” relationship with a bit more nuance: is it “one-to-few”, “one-to-many”, or 
+“one-to-squillions”? Depending on which one it is, you’d use a different format to model the relationship.
+
+
+**Basics: Modeling One-to-Few** 
+https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1
+
+
+
+
+
+
