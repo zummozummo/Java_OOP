@@ -23,3 +23,21 @@ or
 This condition states that the system does not fail, regardless of if messages are dropped or delayed between nodes in a system.
 Partition tolerance has become more of a necessity than an option in distributed systems. It is made possible by sufficiently 
 replicating records across combinations of nodes and networks.
+
+
+
+You can have 
+1)CA
+2)AP
+2)PC
+
+Realational database tends towards consistency and availablilty.Partition handling is something that relatonal database does not handel
+well.often you have to write custome code to handle partition.
+
+NoSQL- tends towards partition tollerance.data is always avaliable to read from and write to and you are able to
+add partition as your nodes grow
+
+ex-consistency may not be important ex- you may load comment section after a while or show changes after some time.
+
+
+
