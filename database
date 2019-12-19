@@ -39,6 +39,9 @@ https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-par
 
 
 
-
+one to many 
+ex
+1)Auther - book
+2)Customer- order
 
 
