@@ -1,1 +1,9 @@
+**The CAP theorem** (also called Brewer’s theorem) 
+states that a distributed database system can only guarantee two out of these three 
+characteristics: Consistency, Availability, and Partition Tolerance.
 
+
+Consistency
+A system is said to be consistent if all nodes see the same data at the same time.
+Simply, if we perform a read operation on a consistent system, it should return the value of the most recent write operation.
+This means that, the read should cause all nodes to return the same data, i.e., the value of the most recent write.
