@@ -4,7 +4,22 @@ This principle suggests that “classes/method/packages should be open for exten
 What is means is that if the class A is written by the developer AA, and if the developer BB wants some modification on 
 that then developer BB should be easily do that by extending class A, but not by modifying class A.
 
-ex-function that can itterate on every type of object follow open close principle
+new functionality should cause minimum change to already existing code.In a development lifecycle new requirements continues to come in
+and if the developer are forced to change the already teasted/completed modules then then the design is considered flaued. 
+
+idealy the developer should change the environment sourroundig the module then the module itself.
+
+this principle is closest friend to software testing as when the unit testing is done for already running code then the cost of testing
+already tested code to support new requirement is very high.Not only you have to change the code but also the test cases you wrote.
+
+
+example 1. HOSPITAL EMPLOYEES EXAMPLE
+----------------------------------------
+
+
+
+
+
 
 
 https://youtu.be/BLcnGmsZ5EE
