@@ -15,7 +15,12 @@ already tested code to support new requirement is very high.Not only you have to
 
 example 1. HOSPITAL EMPLOYEES EXAMPLE
 ----------------------------------------
-
+1)abstract employee class with common properties and abstract methods(ex-duties()).
+2)In entity package
+  create multiple hospital employee class (ex-doctor,nurse,other staff) and implement corresponding duties() for each employee type.
+3)In dao package.
+  create interface with methods -createEmployee  and getEmployee and implement these method for storing data in database
+4)create all the employee object 
 
 
 
