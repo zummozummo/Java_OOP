@@ -1,0 +1,11 @@
+
+https://youtu.be/xahwVmf8itI
+
+It's better to have many small interfaces rather than a few large interfaces.
+or too many is better then too few.
+
+
+What is the benefit of doing interface segregatoin?
+-by creating small interfaces and seperating diffrent roles and responsibility we are favouring composition over inheritence
+  and we are favouring decoupling over coupling. 
+-it's like mircoservices ,we divide the  responsiblity and composing them together the way we want.
