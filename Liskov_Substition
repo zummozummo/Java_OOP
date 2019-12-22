@@ -1,1 +1,19 @@
-https://youtu.be/ObHQHszbIcE
+https://youtu.be/ObHQHszbIcE  10:00
+
+It extends the Open/Closed Principle by focusing on the behavior of a superclass and its subtypes. 
+As I will show you in this article, this is at least as important but harder to validate that the structural requirements of 
+the Open/Closed Principle.
+
+defination -Let Φ(x) be a property provable about objects x of type T. 
+            Then Φ(y) should be true for objects y of type S where S is a subtype of T.
+           
+ explanintaon-    x represent an instance of something of a type (T), and same goes for y
+                and Φ represent a property ex- if X is an instance of an animal and animal have method speak() then Φ is speak
+                
+                
+                what they are trying to say is in case of inheritance the subclass should be atleast be able to do what parent class does 
+                then only their could be is-A realation if not then we cannot say that their is-A realtion.
+
+
+
+Consclusiong--just trying to show us when we should use inheritane and when not.
