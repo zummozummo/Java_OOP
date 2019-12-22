@@ -13,16 +13,28 @@ this principle is closest friend to software testing as when the unit testing is
 already tested code to support new requirement is very high.Not only you have to change the code but also the test cases you wrote.
 
 
-example 1. HOSPITAL EMPLOYEES EXAMPLE
+example 1. HOSPITAL EMPLOYEES EXAMPLE(https://youtu.be/BLcnGmsZ5EE)
 ----------------------------------------
 1)abstract employee class with common properties and abstract methods(ex-duties()).
 2)In entity package
   create multiple hospital employee class (ex-doctor,nurse,other staff) and implement corresponding duties() for each employee type.
 3)In dao package.
   create interface with methods -createEmployee  and getEmployee and implement these method for storing data in database
-4)create all the employee object 
+4)create HospialManagement.java class with method                    //this class is open to extension and close for modificaton
+ public void callUpon(Employee employee) {                       //as any other type of employee may come still the code won't ch
+	employee.performDuties();                               //the implementation of performDuties() will be in the employee class.
+}
+	
+5)create all the employee object in client and pass that object to the HospitalManagement object
+public class EmergencyRoomProcess {
 
-
+	public static void main(String[] args) {
+		HospitalManagement ERDirector=new HospitalManagement();
+		Employee vinay=new Doctor(1,"viany","emergency",true);
+		ERDirector.callUpon(vinay);
+  }
+}
+---------------------------------------------------------------------------
 
 
 
