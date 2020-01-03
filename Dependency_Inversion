@@ -1,5 +1,9 @@
 Dependency injection, dependency inversion, construction injection, parameter injection what does it all mean?
 
 DEFINATION
-Hight level modules should not depend on low level module.Both sould depend on abstraction.
-abstraction should not depend on details.details should depend on abstraction.
+A)Hight level modules should not depend on low level module.Both sould depend on abstraction.
+B)abstraction should not depend on details.details should depend on abstraction.
+
+
+ex-in our code interface is the socket,and that interface should function regardless of the back implementation.We are not intrested in how 
+  it's implemented.
