@@ -1,3 +1,3 @@
 STRATEGY PATTERN
 
-1)It's about using composition over inheritence.
+1)It's about using composition(has a ->) over inheritence(is-a  -|>).
