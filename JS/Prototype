@@ -1,1 +1,10 @@
 Prototype in JS
+-----------------
+js is a protyping language and inheritance is based on prototype.
+in order to learn prototype you need to learn how consturctor work, how inheritance work in JS.
+
+
+By default every function has a property called prototype.
+by default this property is empty and you can add property and methods to it.
+when you create objects from this a function(X) then it will inherit method and property thats defined in X as a prototype.
+
