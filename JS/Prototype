@@ -4,7 +4,42 @@ js is a protyping language and inheritance is based on prototype.
 in order to learn prototype you need to learn how consturctor work, how inheritance work in JS.
 
 
+PROTOTYPE
 By default every function has a property called prototype.
 by default this property is empty and you can add property and methods to it.
 when you create objects from this a function(X) then it will inherit method and property thats defined in X as a prototype.
+
+CONSTRUCTOR
+JS has no class implementation
+JS has prototype based inheritance
+just like in java we create class and create object from it.
+in JS you would creat constuctor and using this constuctor you can create objects form it.
+
+Every function expression is a constructor in JS
+
+ex-1
+function test(){
+}
+
+So its equivalent to 
+Var test=new Function();//build in constructor Function()
+
+
+ex-2
+var x=Function(j){
+this.i=0;
+this.j=j;
+
+this.getJ=Function(){
+    return this.j;
+  };
+};
+
+so this is an example of a constructor and now i can make instances of x using keywork new
+var x1=new x(1);
+var x2=new x(2);
+
+
+
+
 
