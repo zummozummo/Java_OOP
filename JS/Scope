@@ -1,1 +1,31 @@
 SCOPE
+
+ex-1
+var name="vinay"
+
+if(name==="vinay")
+{
+var department="engg";
+}
+
+console.log(name);//vinay
+console.log(department);//engg
+
+Note:value of departement is present outside the block, As js does not create scope for blocks, js is function scope but new feature
+allow us to define block scope.
+
+
+ES6 feature:In ES6, const and let keywords allow developers to declare variables in the block scope,
+            which means those variables exist only within the corresponding block.
+            
+            
+Ex-2
+var top=10;
+var inner=50;
+function foo(){
+  var inner=20;
+  console.log(inner);
+}
+
+foo();//20
+console.log(inner)//50;
