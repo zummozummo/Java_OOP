@@ -29,3 +29,40 @@ function foo(){
 
 foo();//20
 console.log(inner)//50;
+
+
+ex-3
+var name="vinay"
+function foo(name){
+     console.log(name);
+}
+foo("raj");//raj
+
+--------------------------------------------------------------------------------------------
+PROTOTYPE
+Starting with basics, there are following data types in JavaScript:
+
+undefined
+null
+number
+string
+boolean
+object
+
+First five are primitive data types. These store a value of their type such as a boolean, and can be true or false.
+
+The last “object” is a reference type which we can describe as a collection of key-value pairs (but it is much more).
+
+In JavaScript, new objects are made using Object constructor function (or object literal {}) which provides generic methods
+like toString() and valueOf().
+
+
+
+
+ex-
+var obj=new Employee();
+1)a new memory will be created
+------------------------------------------------------------------------------------------------------------------------
+BINDING IN JS
+https://gist.github.com/zcaceres/2a4ac91f9f42ec0ef9cd0d18e4e71262#default-binding
+
